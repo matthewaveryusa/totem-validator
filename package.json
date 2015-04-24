@@ -1,0 +1,29 @@
+{
+  "name": "totem-validator",
+  "version": "0.0.1",
+  "description": "Totem validator",
+  "main": "./src/validator.js",
+  "scripts": {
+    "pretest": "rm -rf coverage",
+    "test": "istanbul cover _mocha -- --recursive -R spec",
+    "posttest": "istanbul check-coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matthewaveryusa/totem-validator.git"
+  },
+  "author": "Matthew Avery & Zenon Parker",
+  "license": "Private, Totem Labs LLC all rights reserved.",
+  "bugs": {
+    "url": "https://github.com/matthewaveryusa/totem-validator/issues"
+  },
+  "homepage": "https://github.com/matthewaveryusa/totem-validator",
+  "dependencies" : {
+    "lodash":"*",
+    "is-my-json-valid":"*"
+  },
+  "devDependencies": {
+    "should":"*",
+    "sinon":"*"
+  }
+}
