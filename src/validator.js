@@ -41,8 +41,6 @@ var _ = require('lodash'),
   });
   properties = _.merge(properties, optionals);
 
-console.log(properties,optionals);
-
 exports.properties = properties;
 
 exports.validateInternalFacebookResponse = validator({
@@ -99,7 +97,7 @@ exports.validateTotemAuthSessionRequest = validator({
     verbose:true
   },validatorOptions);
 
-exports.validate = validator({
+exports.validateTotemAuthRequest = validator({
     required: true,
     type: 'object',
     properties: {
@@ -208,7 +206,7 @@ exports.validateTotemCredentialUpdate = validator({
     verbose:true
   });
 
-exports.validateTotemCredentialUpdate = validator({
+exports.validateUserUpdate = validator({
     required: true,
     type: 'object',
     properties: {
