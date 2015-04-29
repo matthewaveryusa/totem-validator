@@ -171,7 +171,7 @@ exports.validateCreateTotemRequest = validator({
     properties: {
       lng: properties.lng,
       lat: properties.lat,
-      alt: properties.lat,
+      alt: properties.alt,
       color: properties.color,
       title: properties.nullableTitle,
       mediaName: properties.mediaName
