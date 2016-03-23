@@ -145,8 +145,6 @@ exports.validateCreateEntryRequest = validator({
     verbose:true
   });
 
-
-
 exports.validateCreateHubRequest = validator({
     required: true,
     type: 'object',

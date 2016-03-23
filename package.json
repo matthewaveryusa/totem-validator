@@ -1,6 +1,6 @@
 {
   "name": "totem-validator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Totem validator",
   "main": "./src/validator.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "url": "https://github.com/matthewaveryusa/totem-validator.git"
   },
   "author": "Matthew Avery & Zenon Parker",
-  "license": "Private, Totem Labs LLC all rights reserved.",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/matthewaveryusa/totem-validator/issues"
   },
